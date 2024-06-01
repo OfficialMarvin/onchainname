@@ -48,10 +48,10 @@ contract NameList {
     }
 
     /**
-     * @notice Withdraw accumulated Ether. Only callable by the contract owner.
+     * @notice Withdraw and Donate to Gaza through The Giving Block.
      */
     function withdraw() public {
-        require(msg.sender == owner, "Only the contract owner can withdraw");
+        require(msg.sender == owner, "Nice try!");
         payable(owner).transfer(address(this).balance);
     }
 }
