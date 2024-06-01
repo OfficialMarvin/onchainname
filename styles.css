@@ -1,0 +1,11 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#name-list {
+    padding: 50px;
+}
+
+.name-item {
+    margin-bottom: 10px;
+}
